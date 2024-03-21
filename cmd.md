@@ -18,3 +18,10 @@ netstat -na | grep "9092"
 ``` cmd
 kill -9 50896
 ```
+
+docker-compose
+
+```
+docker compose --env-file .env.example -f docker-compose.yml config
+docker compose --env-file .env.example -f docker-compose.yml.yml up -d
+```
