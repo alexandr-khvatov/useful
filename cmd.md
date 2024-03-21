@@ -23,5 +23,5 @@ docker-compose
 
 ```
 docker compose --env-file .env.example -f docker-compose.yml config
-docker compose --env-file .env.example -f docker-compose.yml.yml up -d
+docker compose --env-file .env.example -f docker-compose.yml up -d
 ```
